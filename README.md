@@ -26,20 +26,21 @@ ra $old_word $new_word- replace all $ld_word with $new_word after the cursor
 
 An example of editor.in:
 
-      I am cool.
-      Ali is not so cool.
+      This is a sentence.
+      The weather is good today.
       ::i
-      gl 1
-      re cool awesome
-      gc 18 2
-      d 1
+      gc 8 1
       ::i
-      !
+      not 
       ::i
+      gl 2
+      re good rainy
       s
       q
       
+
 The result is going to be in a file named "editor.out" and for the example given it's going to be:
 
-      I am awesome.
-      Ali is not so cool!
+      This is not a sentence.
+      The weather is rainy today.
+      

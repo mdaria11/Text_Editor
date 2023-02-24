@@ -10,19 +10,20 @@ when you want to add text, close the command block with another "::i", followed
 by the text you want to add.
 
 The commands are:
-s- save the file after modifications
-q - close the editor
-b - backspace
-u - undo (not fully implemented)
-r- redo (not fully implemented)
-gl $nr - go to line $nr
-gc $nrchar [$line] - go to character $nrchar from current line or $line if the option is specified
-dl %nr - delete line $nr
-d %nr- delete %nr characters from cursor
-dw - delete word
-da - delete all words
-re $old_word $new_word - replaces the first instance of $old_word from the cursor with the $new_word
-ra $old_word $new_word- replace all $ld_word with $new_word after the cursor
+
+      s- save the file after modifications
+      q - close the editor
+      b - backspace
+      u - undo (not fully implemented)
+      r- redo (not fully implemented)
+      gl $nr - go to line $nr
+      gc $nrchar [$line] - go to character $nrchar from current line or $line if the option is specified
+      dl %nr - delete line $nr
+      d %nr- delete %nr characters from cursor
+      dw - delete word
+      da - delete all words
+      re $old_word $new_word - replaces the first instance of $old_word from the cursor with the $new_word
+      ra $old_word $new_word- replace all $ld_word with $new_word after the cursor
 
 An example of editor.in:
 

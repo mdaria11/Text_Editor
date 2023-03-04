@@ -1,4 +1,4 @@
-This is a text editor done as an assigment for
+This is a text editor done as an assignment for
 the "Data Structure" class. It mainly uses a list
 to store the text and queues and stacks for different
 commands. 
